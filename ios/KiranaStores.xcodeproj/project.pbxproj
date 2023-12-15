@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* sicu_auraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* sicu_auraTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-sicu_aura.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-sicu_aura.a */; };
+		00E356F31AD99517003FC87E /* KiranaStoresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KiranaStoresTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-sicu_aura-sicu_auraTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-sicu_aura-sicu_auraTests.a */; };
+		77958335DB3DADD0819CCC3C /* libPods-KiranaStores.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D4D4D5230F10B96EB618DB /* libPods-KiranaStores.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		841AB6E04C35B4D301353D46 /* libPods-KiranaStores-KiranaStoresTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B39332E8549ABDA13E34E /* libPods-KiranaStores-KiranaStoresTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,22 +27,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* sicu_auraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sicu_auraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* KiranaStoresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiranaStoresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* sicu_auraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sicu_auraTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* sicu_aura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sicu_aura.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = sicu_aura/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = sicu_aura/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = sicu_aura/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = sicu_aura/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = sicu_aura/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-sicu_aura-sicu_auraTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sicu_aura-sicu_auraTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* KiranaStoresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiranaStoresTests.m; sourceTree = "<group>"; };
+		07102DE701396114C7FC0402 /* Pods-KiranaStores.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiranaStores.release.xcconfig"; path = "Target Support Files/Pods-KiranaStores/Pods-KiranaStores.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* KiranaStores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiranaStores.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KiranaStores/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = KiranaStores/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KiranaStores/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = KiranaStores/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KiranaStores/main.m; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-sicu_aura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sicu_aura.debug.xcconfig"; path = "Target Support Files/Pods-sicu_aura/Pods-sicu_aura.debug.xcconfig"; sourceTree = "<group>"; };
+		47B7600349C792AB757820C7 /* Pods-KiranaStores-KiranaStoresTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiranaStores-KiranaStoresTests.release.xcconfig"; path = "Target Support Files/Pods-KiranaStores-KiranaStoresTests/Pods-KiranaStores-KiranaStoresTests.release.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-sicu_aura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sicu_aura.release.xcconfig"; path = "Target Support Files/Pods-sicu_aura/Pods-sicu_aura.release.xcconfig"; sourceTree = "<group>"; };
+		5B02D57BA8BF6EE177B177F7 /* Pods-KiranaStores.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiranaStores.debug.xcconfig"; path = "Target Support Files/Pods-KiranaStores/Pods-KiranaStores.debug.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-sicu_aura-sicu_auraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sicu_aura-sicu_auraTests.debug.xcconfig"; path = "Target Support Files/Pods-sicu_aura-sicu_auraTests/Pods-sicu_aura-sicu_auraTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-sicu_aura.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sicu_aura.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = sicu_aura/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = KiranaStores/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88D4D4D5230F10B96EB618DB /* libPods-KiranaStores.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiranaStores.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-sicu_aura-sicu_auraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sicu_aura-sicu_auraTests.release.xcconfig"; path = "Target Support Files/Pods-sicu_aura-sicu_auraTests/Pods-sicu_aura-sicu_auraTests.release.xcconfig"; sourceTree = "<group>"; };
+		C59B39332E8549ABDA13E34E /* libPods-KiranaStores-KiranaStoresTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiranaStores-KiranaStoresTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC70BC14145D5949E49307E9 /* Pods-KiranaStores-KiranaStoresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiranaStores-KiranaStoresTests.debug.xcconfig"; path = "Target Support Files/Pods-KiranaStores-KiranaStoresTests/Pods-KiranaStores-KiranaStoresTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-sicu_aura-sicu_auraTests.a in Frameworks */,
+				841AB6E04C35B4D301353D46 /* libPods-KiranaStores-KiranaStoresTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +63,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-sicu_aura.a in Frameworks */,
+				77958335DB3DADD0819CCC3C /* libPods-KiranaStores.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* sicu_auraTests */ = {
+		00E356EF1AD99517003FC87E /* KiranaStoresTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* sicu_auraTests.m */,
+				00E356F21AD99517003FC87E /* KiranaStoresTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = sicu_auraTests;
+			path = KiranaStoresTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +87,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* sicu_aura */ = {
+		13B07FAE1A68108700A75B9A /* KiranaStores */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +97,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = sicu_aura;
+			name = KiranaStores;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-sicu_aura.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-sicu_aura-sicu_auraTests.a */,
+				88D4D4D5230F10B96EB618DB /* libPods-KiranaStores.a */,
+				C59B39332E8549ABDA13E34E /* libPods-KiranaStores-KiranaStoresTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +120,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* sicu_aura */,
+				13B07FAE1A68108700A75B9A /* KiranaStores */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* sicu_auraTests */,
+				00E356EF1AD99517003FC87E /* KiranaStoresTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -131,8 +135,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* sicu_aura.app */,
-				00E356EE1AD99517003FC87E /* sicu_auraTests.xctest */,
+				13B07F961A680F5B00A75B9A /* KiranaStores.app */,
+				00E356EE1AD99517003FC87E /* KiranaStoresTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +148,10 @@
 				5709B34CF0A7D63546082F79 /* Pods-sicu_aura.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-sicu_aura-sicu_auraTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-sicu_aura-sicu_auraTests.release.xcconfig */,
+				5B02D57BA8BF6EE177B177F7 /* Pods-KiranaStores.debug.xcconfig */,
+				07102DE701396114C7FC0402 /* Pods-KiranaStores.release.xcconfig */,
+				CC70BC14145D5949E49307E9 /* Pods-KiranaStores-KiranaStoresTests.debug.xcconfig */,
+				47B7600349C792AB757820C7 /* Pods-KiranaStores-KiranaStoresTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* sicu_auraTests */ = {
+		00E356ED1AD99517003FC87E /* KiranaStoresTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "sicu_auraTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KiranaStoresTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -167,14 +175,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = sicu_auraTests;
+			name = KiranaStoresTests;
 			productName = sicu_auraTests;
-			productReference = 00E356EE1AD99517003FC87E /* sicu_auraTests.xctest */;
+			productReference = 00E356EE1AD99517003FC87E /* KiranaStoresTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* sicu_aura */ = {
+		13B07F861A680F5B00A75B9A /* KiranaStores */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "sicu_aura" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "KiranaStores" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -189,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = sicu_aura;
+			name = KiranaStores;
 			productName = sicu_aura;
-			productReference = 13B07F961A680F5B00A75B9A /* sicu_aura.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* KiranaStores.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -224,8 +232,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* sicu_aura */,
-				00E356ED1AD99517003FC87E /* sicu_auraTests */,
+				13B07F861A680F5B00A75B9A /* KiranaStores */,
+				00E356ED1AD99517003FC87E /* KiranaStoresTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,15 +280,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sicu_aura/Pods-sicu_aura-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KiranaStores/Pods-KiranaStores-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sicu_aura/Pods-sicu_aura-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KiranaStores/Pods-KiranaStores-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sicu_aura/Pods-sicu_aura-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KiranaStores/Pods-KiranaStores-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -298,7 +306,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sicu_aura-sicu_auraTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KiranaStores-KiranaStoresTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -320,7 +328,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sicu_aura-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KiranaStores-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,15 +341,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sicu_aura-sicu_auraTests/Pods-sicu_aura-sicu_auraTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KiranaStores-KiranaStoresTests/Pods-KiranaStores-KiranaStoresTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sicu_aura-sicu_auraTests/Pods-sicu_aura-sicu_auraTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KiranaStores-KiranaStoresTests/Pods-KiranaStores-KiranaStoresTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sicu_aura-sicu_auraTests/Pods-sicu_aura-sicu_auraTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KiranaStores-KiranaStoresTests/Pods-KiranaStores-KiranaStoresTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -350,15 +358,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sicu_aura/Pods-sicu_aura-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KiranaStores/Pods-KiranaStores-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sicu_aura/Pods-sicu_aura-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KiranaStores/Pods-KiranaStores-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sicu_aura/Pods-sicu_aura-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KiranaStores/Pods-KiranaStores-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -367,15 +375,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sicu_aura-sicu_auraTests/Pods-sicu_aura-sicu_auraTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KiranaStores-KiranaStoresTests/Pods-KiranaStores-KiranaStoresTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sicu_aura-sicu_auraTests/Pods-sicu_aura-sicu_auraTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KiranaStores-KiranaStoresTests/Pods-KiranaStores-KiranaStoresTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sicu_aura-sicu_auraTests/Pods-sicu_aura-sicu_auraTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KiranaStores-KiranaStoresTests/Pods-KiranaStores-KiranaStoresTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -404,7 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* sicu_auraTests.m in Sources */,
+				00E356F31AD99517003FC87E /* KiranaStoresTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +430,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* sicu_aura */;
+			target = 13B07F861A680F5B00A75B9A /* KiranaStores */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,7 +438,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-sicu_aura-sicu_auraTests.debug.xcconfig */;
+			baseConfigurationReference = CC70BC14145D5949E49307E9 /* Pods-KiranaStores-KiranaStoresTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +465,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-sicu_aura-sicu_auraTests.release.xcconfig */;
+			baseConfigurationReference = 47B7600349C792AB757820C7 /* Pods-KiranaStores-KiranaStoresTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,13 +489,13 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-sicu_aura.debug.xcconfig */;
+			baseConfigurationReference = 5B02D57BA8BF6EE177B177F7 /* Pods-KiranaStores.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = sicu_aura/Info.plist;
+				INFOPLIST_FILE = KiranaStores/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,8 +506,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = sicu_aura;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiranastores;
+				PRODUCT_NAME = KiranaStores;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -508,12 +516,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-sicu_aura.release.xcconfig */;
+			baseConfigurationReference = 07102DE701396114C7FC0402 /* Pods-KiranaStores.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = sicu_aura/Info.plist;
+				INFOPLIST_FILE = KiranaStores/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,8 +532,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = sicu_aura;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiranastores;
+				PRODUCT_NAME = KiranaStores;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -680,7 +688,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "sicu_auraTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KiranaStoresTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -689,7 +697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "sicu_aura" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "KiranaStores" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
