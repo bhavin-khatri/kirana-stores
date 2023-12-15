@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848175130127",
+    "project_id": "kiranastores-a6706",
+    "storage_bucket": "kiranastores-a6706.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848175130127:android:5710e09bea46390964e57a",
+        "android_client_info": {
+          "package_name": "com.kiranastores"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvQHEi-WKJnY3JqN1x5uJNCTJJ1_LyxpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

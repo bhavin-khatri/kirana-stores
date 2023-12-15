@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "clean-android": "cd android && ./gradlew clean && cd ..",
+    "format": "prettier --write .",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
@@ -11,6 +13,9 @@
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.21.0",
+    "@react-native-firebase/app": "^18.7.3",
+    "@react-native-firebase/database": "^18.7.3",
+    "@react-native-firebase/storage": "^18.7.3",
     "@react-navigation/native": "^6.1.7",
     "@react-navigation/stack": "^6.3.17",
     "@types/react-native-popup-dialog": "^0.16.7",
