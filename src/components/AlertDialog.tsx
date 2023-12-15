@@ -10,7 +10,7 @@ interface AlertDialogProps {
 }
 
 interface AlertDialogState {
-    visible: boolean;
+    visible?: boolean;
     onDismiss?: () => void;
     children?: ReactNode;
     cancelable?: boolean;

@@ -14,7 +14,7 @@ interface PermissionUtilsProps {
     message: string;
     onSuccess: (granted: boolean) => void;
     canAskForPermissionAgain?: boolean;
-    stringsReference?: any; // Replace with appropriate type
+    stringsReference?: any;
 }
 
 export default class PermissionUtils {

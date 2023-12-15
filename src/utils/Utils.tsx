@@ -93,6 +93,7 @@ export const getAllStores=()=>{
                         area:stores.area,
                         route:stores.route,
                         type:stores.type,
+                        storeImage:stores.storeImage ? stores.storeImage : ''
                     });
                 });
                 resolve(storeList);
@@ -109,7 +110,7 @@ export const getAllUsers = () => {
         const userList: any[] = [];
         usersRef.on('value', (snapshot) => {
             if (snapshot.exists()) {
-                snapshot.forEach((childSnapshot: any) => {
+                snapshot.forEach((childSnapshot) => {
                     const user = childSnapshot.val();
                     const userId = childSnapshot.key || '';
                     userList.push({
@@ -163,3 +164,52 @@ export const getUsersWithStoreData=async (userName:string)=>{
         throw error;
     }
 }
+
+export const updateStoreDetailsInFirebase = (storeDetails:any) => {
+    const { storeId,storeImage } = storeDetails;
+    const storeRef = database().ref(`stores/${storeId}`);
+    storeRef.once('value')
+        .then((snapshot) => {
+            if (snapshot.exists()) {
+                const storeData = snapshot.val();
+                const updatedStoreData = {
+                    ...storeData,
+                    storeImage: storeImage,
+                };
+                storeRef.update(updatedStoreData).then(r=>{
+                    addStoreVisitDetails(storeId,updatedStoreData)
+                });
+
+            } else {
+                console.log('Store not found');
+            }
+        })
+        .catch((error) => {
+            console.error('Error updating store image:', error);
+        });
+};
+
+const addStoreVisitDetails = async (storeId:string,storeDetails:any) => {
+    try {
+        const visitTime = new Date().toISOString(); // Get current time in ISO format
+        const visitsRef = database().ref(`store_visits/${storeId}`);
+        const snapshot = await visitsRef.once('value');
+        if (snapshot.exists()) {
+            // Update the existing entry if already store id data exist
+            snapshot.forEach((childSnapshot) => {
+                const key:any = childSnapshot.key;
+                visitsRef.child(key).update({ visit_time: visitTime ,storeUrl: storeDetails.storeImage});
+            });
+        } else {
+            // Create a new entry if store id not present
+            await visitsRef.push({
+                storeUrl: storeDetails.storeImage,
+                visit_time: visitTime,
+            });
+        }
+    } catch (error) {
+        throw error;
+    }
+};
+
+
