@@ -6,15 +6,9 @@ import Images from "./Images";
 
 export interface IProps {
   label?: string;
-  value?: string;
-  onChangeText?: (text: string) => void;
+  value: string;
+  onChangeText: (text: string) => void;
   imageStart?:any;
-  isMultiCountry?:any
-  isOTp?:any
-  otp?:any
-  handleOtpInputChange?:(index:any, text:any)=>void
-  otpTextInputRefs?:any
-
 }
 
 export const FloatingEditTextInput: React.FC<IProps> = React.forwardRef(
@@ -24,52 +18,25 @@ export const FloatingEditTextInput: React.FC<IProps> = React.forwardRef(
       label,
       onChangeText,
       imageStart,
-      isMultiCountry,
-      isOTp,
-      otp,
-      handleOtpInputChange,
-      otpTextInputRefs
     } = props;
-
 
     return (
       <>
-        {isOTp ?
-          <View style={styles.otpContainer}>
-            {otp.map((value: any, index: number) => (
-              <TextInput
-                key={index}
-                style={styles.otpInput}
-                onChangeText={(text) => handleOtpInputChange(index, text)}
-                value={value}
-                keyboardType="numeric"
-                maxLength={1}
-                ref={otpTextInputRefs[index]}
-              />
-            ))}
-          </View>
-          :
-          <View style={styles.inputView}>
-            {isMultiCountry ?
-              <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
-                <Text style={{color:Colors.defaultBlack}}>+91</Text>
-                <Image source={Images.ic_down} style={styles.imageStartStyle} />
-              </View>
+        <View style={styles.inputView}>
+          {imageStart ?
+              <Image source={Images.ic_down} style={styles.imageStartStyle} />
               : null
-            }
-
-
-            <TextInput
+          }
+          <TextInput
               style={styles.textInput}
               placeholderTextColor={Colors.shadeGray}
-              placeholder={label}
+              placeholder={label || 'Enter Text'}
               value={value}
               onChangeText={text => onChangeText(text)}
-            />
+          />
 
 
-          </View>
-        }
+        </View>
       </>
     );
   }
@@ -97,24 +64,5 @@ const styles = StyleSheet.create({
     height:ResponsivePixels.size20,
     width:ResponsivePixels.size20,
     marginHorizontal:ResponsivePixels.size10
-  },
-  rowView:{flexDirection:'row',justifyContent:'space-between',alignItems:'center'},
-  otpContainer: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginVertical:ResponsivePixels.size15,
-  },
-  otpInput: {
-    borderWidth: ResponsivePixels.size1,
-    borderRadius: ResponsivePixels.size15,
-    paddingVertical: ResponsivePixels.size10,
-    marginHorizontal: ResponsivePixels.size10,
-    textAlign: 'center',
-    backgroundColor:Colors.lightGray,
-    fontSize: ResponsivePixels.size20,
-    borderColor:Colors.lightGrayBorder,
-    width: ResponsivePixels.size70,
-    color:Colors.defaultBlack
-  },
+  }
 })

@@ -8,4 +8,5 @@ export default {
   ic_imei: require('../res/images/ic_imei.png'),
   ic_password: require('../res/images/ic_password.png'),
   ic_down: require('../res/images/down-arrow.png'),
+  ic_gif_login: require('../res/gifs/login.gif'),
 };

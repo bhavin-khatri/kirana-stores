@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Image, SafeAreaView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import {Animated, Image, SafeAreaView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { ResponsivePixels } from "../../../res/styles/ResponsivePixels";
 import { Colors } from "../../../res/styles/Colors";
 import Images from "../../../components/Images";
@@ -31,7 +31,9 @@ const Login = (props:any) => {
       <HeaderView/>
       <View style={styles.topView}>
         <Text style={styles.textSize20}>Login In</Text>
-        <Image source={Images.ic_login_head} style={styles.headerImage} />
+        <Animated.View style={{ flex: 1 }}>
+        <Image source={Images.ic_gif_login} style={styles.headerImage}/>
+        </Animated.View>
         <FloatingEditTextInput isMultiCountry={true} label={'Phone Number'} value={phoneNumber} onChangeText={handlePhoneNumber} imageStart={Images.ic_email}/>
         <TouchableOpacity onPress={validateUser} style={styles.loginButton}>
           <Text style={styles.loginText}>Get Otp</Text>
