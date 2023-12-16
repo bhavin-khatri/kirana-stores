@@ -1,5 +1,16 @@
 export default {
   ic_app_logo: require('../res/images/ic_app_logo.png'),
+  ic_password_show: require('../res/images/ic_password_show.png'),
+  ic_password_hide: require('../res/images/ic_password_hide.png'),
+  ic_password_lock: require('../res/images/ic_password_lock.png'),
+  ic_shop: require('../res/images/ic_shop.png'),
+  ic_search: require('../res/images/ic_search.png'),
+  ic_logout: require('../res/images/ic_logout.png'),
+  ic_upload: require('../res/images/upload_image.png'),
+  ic_edit: require('../res/images/ic_editing.png'),
+  ic_back: require('../res/images/go_back.png'),
+  ic_loading: require('../res/images/loading.png'),
+
   ic_login_head: require('../res/images/ic_login.png'),
   ic_registration_head: require('../res/images/ic_registration.png'),
   ic_email: require('../res/images/ic_email.png'),
@@ -8,5 +19,5 @@ export default {
   ic_imei: require('../res/images/ic_imei.png'),
   ic_password: require('../res/images/ic_password.png'),
   ic_down: require('../res/images/down-arrow.png'),
-  ic_gif_login: require('../res/gifs/login.gif'),
+  ic_gif_login: require('../res/gifs/lottie_login.json'),
 };

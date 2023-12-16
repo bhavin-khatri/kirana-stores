@@ -24,14 +24,13 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import { AppStack } from "./src/navigation/AppStack";
-import { navigationRef } from "./src/navigation/Navigator";
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { NativeBaseProvider } from 'native-base';
-import { NavigationContainer } from '@react-navigation/native';
+import {AppStack} from './src/navigation/AppStack';
+import {navigationRef} from './src/navigation/Navigator';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
+import {NativeBaseProvider} from 'native-base';
+import {NavigationContainer} from '@react-navigation/native';
 
 function App(): JSX.Element {
-
   return (
     <GestureHandlerRootView style={{flex: 1}}>
       <NativeBaseProvider>
